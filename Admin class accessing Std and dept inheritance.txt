@@ -1,0 +1,18 @@
+class Student:
+	def func1(self):
+		print("This function is in student.")
+
+class department(Student):
+	def func2(self):
+		print("This function is in department. ")
+
+
+class Admin(department, Student):
+	def func4(self):
+		print("This function is in Admin.")
+
+# Driver's code
+object = Admin()
+object.func1()
+object.func2()
+
