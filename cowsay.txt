@@ -1,0 +1,3 @@
+import cowsay
+# cowsay.parrot('This is parrot')
+cowsay.cat("i am a cat")
